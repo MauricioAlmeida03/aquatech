@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+.header{
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: #191970;
+}
+
+.header .container{
+    justify-content: space-between;
+}
+.titulo{
+    margin: 5px;
+    color: #32b9cd;
+}
+
+.navbar{
+    color: #6495ED;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style:none;
+}
